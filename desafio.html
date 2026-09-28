@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Desenvolvedro Web">
+    <meta noe="keywords" content="HTML5, portifólio, desenvolvimento">
+    <title>Portifólio</title>
+</head>
+<body style="background-color: aliceblue;">
+    <!-- Cabeçalho da página -->
+     <header>
+        <h1>Allicia Moura - Desenvolvedor WEB</h1>
+        <nav>
+            <!-- Navegação principal -->
+             <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+             </ul>
+        </nav>
+     </header>
+     <hr>
+
+        <!-- Seção inicial -->
+         <section id="sobre">
+            <h2>Sobre mim</h2>
+            *FOTO*
+         </section>
+         <P>Sou estudante de <strong>Desenvolvimento de sistemas</strong> no SENAI</p>
+            <p>Tenho conhecimento em <em>HTML, CSS</em> e estou aprendendo <em>JavaScript</em></p>
+        
+            <h3>Minhas Habilidades:</h3>
+            <ul style="list-style-type: disc;">
+                <li>HTML5 Semântico</li>
+                <li>CSS3 e Responsividade</li>
+                <li>Formulários e Validção</li>
+                <li>Estrutura de Dados</li>
+            </ul>
+         <hr>
+
+        <!-- Seção Projetos -->
+         <section id="projetos">
+         <h2>Meus projetos</h2>
+         </section>
+         
+         <table border="1" cellpadding="10" cellspacing="1">
+        <!-- Cabeçalho da tabela -->
+         <thead style="background-color: blueviolet;">
+            <tr style="color: aliceblue;">
+                <th>Projeto</th>
+                <th>Tecnologias</th>
+                <th>Status</th>
+                <th>Link</th>
+            </tr>
+         </thead>
+         <!-- Corpo da tabela -->
+          <tbody>
+            <tr>
+                <td><strong>Verificador de Maioridade</strong>
+                </td>
+                <td>HTML5, PHP, Arquivo TXT</td>
+                <td>Finalizado</td>
+                <td><a href="https://github.com/alliciamoura/verificacao-maioridade">Ver projeto</a>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Itaú - Identidade Visual</strong></td>
+                <td>Figma</td>
+                <td>Finalizado</td>
+                <td><a href="https://github.com/alliciamoura/atividade-itau-">Ver projeto</a></td>
+            </tr>
+            <tr>
+                <td><strong>Portifólio - O Diário da Princesa</strong></td>
+                <td>HTML, Visual Studio Code</td>
+                <td>Finalizado</td>
+                <td><a href="https://github.com/alliciamoura/projeto-filme">Ver projeto</a></td>
+            </tr>
+          </tbody>
+        </table>
+        <hr>
+
+        <!-- Seção contato -->
+         <section id="contato">
+            <h2>Entre em Contato<h2>
+         </section>
+
+         <!-- Formulário -->
+          <form action="cadastrar" method="post">
+            <fieldset style="background-color:rgb(209, 209, 251);">
+                <legend><strong>Dados de contato</strong></legend>
+
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome" name="nome" required><br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                
+                <!-- Lista de seleção -->
+                <label for="assnto">Assunto:</label><br>
+                <select name="assunto" id="assunto">
+                <option value="">Selecione um assunto</option>
+                <option value="">Oportunidade de trabalho</option>
+                <option value="">Proposta de projeto</option>
+                <option value="">Contato geral</option>
+                </select><br><br>
+                
+                <!-- Área para mensagem -->
+                <label for="mensagem">Mensagem:</label><br>
+                <textarea name="mensagem" id="mensagem" rows="4" cols="50"></textarea><br><br>
+
+                <button type="submit">Enviar mensagem</button>
+            </fieldset>
+          </form>
+
+          <!-- Rodapé da página -->
+        <footer>
+            <p>&copy 2026 Meu Site. Todos os direitos reservados</p>
+            <address>
+                <a href="allicia.moura@outlook.com">alliciamoura@outlook.com</a>
+
+            </address>
+        </footer>
+
+
+
+</body>
+</html>
